@@ -3,7 +3,7 @@ def temperature_modeling(a, b, c, time):
     return temperature
     
 #hardcoding values
-a_hard, b_hard, c_hard= 0.1, 2, 10
+a_hard, b_hard, c_hard= 1, 0.2, 100
 print("Hard-coded Variables for Weather Modeling")
 time_hard= 5
 print("Temperature for hardcoded coefficients at time", temperature_modeling(a_hard, b_hard, c_hard, time_hard))
